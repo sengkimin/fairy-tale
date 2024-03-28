@@ -1,0 +1,14 @@
+
+
+.card-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 20px;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+    
+}
