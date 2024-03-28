@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+     padding: 0;
+    
+ }
+ .single{
+     width: 80%;
+     overflow: hidden;
+     /* margin: auto; */
+     background-color: #FFFFEC;
+ }
+ .header{
+     width: 100%;
+     overflow: hidden;
+      text-align: center;
+ }
+ .header h1{
+     width: 50%;
+     font-size: 40px;
+    line-height: 50px;
+ }
+ .header p{
+     width: 70%;
+     font-size: 20px;
+     line-height: 20px;
+     color: #EA18EE;
+ }
+ .image{
+     margin-top:  30px;
+     width: 60%;
+     height: 600px;
+     background-color: aqua;
+ }
+ .title{
+     width: 70%;
+     overflow: hidden;
+     
+ }
+ .title p{
+     font-size: 28px;
+     color: #EA18EE;
+     margin-top: 30px ;
+ }
