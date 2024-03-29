@@ -44,18 +44,7 @@ function fetchData() {
      for(let i=0; i<1; i++) {
       if(data[i].id) {
         card.innerHTML += `
-        <header class="d-flex justify-content-center py-3 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <span class="fs-4">Fairy Tale</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="" class="nav-link " aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link active">Stories</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-        </ul>
-      </header>
-      
-         <div class="header-box">
+         <div class="box">
           <h1>${data[i].title}</h1>
           <p>${data[i].author}</p>
          </div>
