@@ -1,14 +1,53 @@
-
-
+*{
+    margin: auto;
+    padding: 0;
+    color: #EA18EE;
+    background-color: #FFFFEC;
+}
+#card {
+  width: 100%;
+  overflow: hidden;
+}
 .card-container{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    border: 1px solid black;
-    margin: 20px;
+  width: 80%;
+  overflow: hidden;
+ 
 }
-.box{
-    text-align: center;
-    padding: 20px;
-    
+.box {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  border: 1px solid #EA18EE;
+  padding: 10px;
 }
+
+.box-img {
+  width: 30%;
+  height: 300px;
+}
+.box-img img{
+  width: 100%;
+  height: 100%;
+}
+.box-title{
+  width: 68%;
+  height: auto;
+}
+.box-title p{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.box1{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  background-color: #EA18EE;
+}
+.box1 p{
+  width: 200px;
+}
+
+
+ 
