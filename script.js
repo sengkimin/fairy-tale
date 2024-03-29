@@ -1,33 +1,33 @@
-const API_URL = "https://fairy-tale-h8ekmey95-siemhong.vercel.app/";
+// const API_URL = "https://fairy-tale-h8ekmey95-siemhong.vercel.app/";
 
-// GET /api/fairytales
-
-
+// // GET /api/fairytales
 
 
 
-// Simulated function to fetch fairy tales from API
-function fetchFairyTales() {
-  return new Promise((resolve, reject) => {
-    // Simulate fetching data from API
-    setTimeout(() => {
-      const fairyTales = [
-        {
-          title: "Cinderella",
-          ageGroup: "Preschool",
-          audioUrl: "cinderella.mp3",
-        },
-        {
-          title: "Snow White",
-          ageGroup: "Elementary",
-          audioUrl: "snow_white.mp3",
-        },
-        // Add more fairy tales here
-      ];
-      resolve(fairyTales);
-    }, 1000); // Simulate delay of 1 second
-  });
-}
+
+
+// // Simulated function to fetch fairy tales from API
+// function fetchFairyTales() {
+//   return new Promise((resolve, reject) => {
+//     // Simulate fetching data from API
+//     setTimeout(() => {
+//       const fairyTales = [
+//         {
+//           title: "Cinderella",
+//           ageGroup: "Preschool",
+//           audioUrl: "cinderella.mp3",
+//         },
+//         {
+//           title: "Snow White",
+//           ageGroup: "Elementary",
+//           audioUrl: "snow_white.mp3",
+//         },
+//         // Add more fairy tales here
+//       ];
+//       resolve(fairyTales);
+//     }, 1000); // Simulate delay of 1 second
+//   });
+// }
 
 // Function to display top fairy tale and age categories
 async function displayHomePageContent() {
