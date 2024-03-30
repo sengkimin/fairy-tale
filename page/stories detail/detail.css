@@ -2,10 +2,13 @@
     margin: auto;
      padding: 0;
  }
+body{
+     background-color: #FFFFEC;
+}
  .single{
      width: 100%;
      overflow: hidden;
-     background-color: #FFFFEC;
+    
  }
  .box{
     width: 100%;
@@ -37,10 +40,10 @@
  .title{
      width: 70%;
      overflow: hidden;
-     
  }
  .title p{
      font-size: 28px;
      color: #EA18EE;
      margin-top: 30px ;
  }
+ 
