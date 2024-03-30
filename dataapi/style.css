@@ -25,7 +25,7 @@
 
 .box-img {
   width: 30%;
-  height: 300px;
+  height: 330px;
 }
 .box-img img{
   width: 100%;
@@ -37,16 +37,17 @@
 }
 .box-title p{
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .box1{
   width: 100%;
   display: flex;
-  justify-content:space-between;
-  background-color: #EA18EE;
+  justify-content:space-evenly;
+  /* background-color: #EA18EE; */
 }
 .box1 p{
-  width: 200px;
+  flex: 1;
+  font-size:20px ;
 }
 
 

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #EA18EE;
+}
+.contact-footer{
+    width: 100%;
+    overflow: hidden;
+}
+.box-contact{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    margin-top: 40px; 
+    height: 380px;
+}
+.contact-title{
+    width: 48%;
+     text-align: center;
+     margin-top: 60px;
+    
+}
+.contact-title h1{
+    font-size: 48px;
+    
+}
+.contact-title p{
+    font-size: 38px;
+    width: 76%;
+    margin: auto;
+}
+.contact-image{
+    width: 50%;
+    height: 100%;
+}
+.contact-image img{
+    width: 100%;
+    height: 100%;
+}
+.box-from{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px; 
+    overflow: hidden;
+}
+.direat-contact{
+    width: 55%;
+    /* margin: auto; */
+}
+.direat-contact h1{
+    font-size: 32px; 
+    text-align: center;
+    color: black;
+}
+.box-icon{
+    width: 80%;
+    gap: 30px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+   
+}
+.box-icon i{
+      font-size: 34px;
+}
+.box-icon p{
+    font-size: 25px;
+}
+
+.contact-from{
+    width: 40%;
+    /* background-color: aqua;  */
+}
+
+.contact-from h1{
+    font-size: 32px;
+    text-align: center;
+    color: black;
+}
+.from{
+    width: 100%;
+    gap: 30px;
+    margin: auto;
+    /* margin-top: 20px; */
+    padding: 30px;
+}
+.from p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.from input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #FCE4E4;
+}
+.btn-sub{
+    background-color: #26AFEA;
+    padding: 14px ;
+    color: rgb(1, 1, 1);
+    font-size: 14px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 3px;
+    margin-left: 80%;
+}
+.btn-sub:hover{
+    background-color: rgb(225, 25, 222);
+    color: #1D2939;
+}
