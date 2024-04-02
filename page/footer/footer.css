@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.filter{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 62.5%;
+    display: flex;
+    align-items: center;
+}
+.filter-bar{
+    width: 18%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.filter-circle{
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.click-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.click-circle:hover{
+    background-color: black;
+}
+.border-right{
+    height: 30px;
+    border-right: 1px solid black;
+}
+.short-by-year{
+    display: flex;
+    align-items: center;
+}
+.short-by-year p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.short-by-year i{
+    color: black;
+    margin-right:10px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}

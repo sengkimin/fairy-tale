@@ -4,9 +4,9 @@ document.getElementById("nerbar").innerHTML+=`
             <span class="fs-4">Fairy Tale</span>
           </a>
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Stories</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="../page/home.page?home.html=home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="../page/stories page?stories.html=stories" class="nav-link">Stories</a></li>
+            <li class="nav-item"><a href="../page/contact page?contact.html=cotact" class="nav-link">Contact</a></li>
           </ul>
         </header>
 `
