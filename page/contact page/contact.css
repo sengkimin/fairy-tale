@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 .box-contact{
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -19,7 +19,7 @@ body{
     height: 380px;
 }
 .contact-title{
-    width: 48%;
+    width: 50%;
      text-align: center;
      margin-top: 60px;
     
@@ -42,7 +42,7 @@ body{
     height: 100%;
 }
 .box-from{
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
