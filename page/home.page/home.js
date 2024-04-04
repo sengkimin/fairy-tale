@@ -21,7 +21,7 @@ function dataHome () {
         if(count<=3) {
           container.innerHTML += `
       
-          <div class="card border-0">
+          <a href="/page/stories detail/detail.html?id=${data[i].id}" class="card border-0">
                 <img src="${data[i].image}" class="card-img-top"
                   alt="...">
                 <div class="card-body">
@@ -29,7 +29,7 @@ function dataHome () {
                   <p class="card-text">${data[i].summary}</p>
                 <p>By: ${data[i].author}</p>
                 </div>
-              </div>
+              </a>
           `
         }
         count++;
@@ -43,7 +43,7 @@ function dataHome () {
           if(count<=3){
             container1.innerHTML += `
       
-            <div class="card border-0">
+            <a href="/page/stories detail/detail.html?id=${data[i].id}" class="card border-0">
             <img src="${data[i].image}" class="card-img-top"
               alt="...">
             <div class="card-body">
@@ -51,7 +51,7 @@ function dataHome () {
               <p class="card-text">${data[i].summary}</p>
             <p>By: ${data[i].author}</p>
             </div>
-          </div>
+          </a>
           `
           }
           count++;
@@ -64,7 +64,7 @@ function dataHome () {
           if(count<=3){
             container2.innerHTML += `
       
-            <div class="card border-0">
+            <a href="/page/stories detail/detail.html?id=${data[i].id}" class="card border-0">
             <img src="${data[i].image}" class="card-img-top"
               alt="...">
             <div class="card-body">
@@ -72,7 +72,7 @@ function dataHome () {
               <p class="card-text">${data[i].summary}</p>
             <p>By: ${data[i].author}</p>
             </div>
-          </div>
+          </a>
           `
           }
           count++;

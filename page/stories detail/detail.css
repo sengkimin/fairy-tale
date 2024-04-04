@@ -1,37 +1,47 @@
 *{
-    margin: auto;
+    margin:0;
+    box-sizing: border-box;
      padding: 0;
+    
  }
+ .fs-4{
+    color: #EA18EE;
+}
 body{
      background-color: #FFFFEC;
 }
  .single{
      width: 100%;
      overflow: hidden;
-    
+    margin: auto;
  }
  .box{
     width: 100%;
     overflow: hidden;
     text-align: center;
     margin-top: 20px;
+    margin: auto;
  }
  .box h1{
      width: 50%;
      font-size: 40px;
      line-height: 50px;
+     margin: auto;
+     margin-top: 30px;
  }
  .box p{
      width: 70%;
      font-size: 25px;
      line-height: 50px;
      color: #EA18EE;
+     margin: auto;
+     margin-bottom: 20px;
  }
  .image{
-     margin-top:  30px;
+     margin-top:  50px;
      width: 55%;
      height: 600px;
-   
+     margin: auto;
  }
  .image img{
     width: 100%;
@@ -40,6 +50,8 @@ body{
  .title{
      width: 70%;
      overflow: hidden;
+     margin: auto;
+
  }
  .title p{
      font-size: 28px;
