@@ -1,9 +1,16 @@
+a{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+*{
+     color: #EA18EE;
+}
 body {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: #EA18EE;
+ 
   }
   .gap-3{
     width: 80%;
@@ -45,7 +52,10 @@ body {
     gap: 10px;
   }
   .btn-info{
-    color: #EA18EE;
+    
     background-color: aliceblue;
     border: #EA18EE solid 1px;
+  }
+  .btn a{
+    color: #EA18EE;
   }

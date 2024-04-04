@@ -1,16 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     color: #EA18EE;
 }
+.fs-4{
+    color: #EA18EE;
+}
 .contact-footer{
-    width: 100%;
+    width: 80%;
     overflow: hidden;
+    margin: auto;
+    /* height: 1100px; */
+    border: #EA18EE solid 1px;
 }
 .box-contact{
-    width: 80%;
+    width: 80%; 
     display: flex;
     justify-content: center;
     gap: 20px;

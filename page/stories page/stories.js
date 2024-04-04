@@ -18,8 +18,9 @@ fetch(url)
     if (age === "all") {
       for (let i = 0; i < data.length; i++) {
         card.innerHTML += `
-        <a href="/page/stories page/stories.html?age=${data[i].age}"></a>
-        <div class="card-container">
+       
+
+        <a href="../../page/stories detail/detail.html?id=${data[i].id}" style=" text-decoration: none;" class="card-container">
         <div class="box">
             <div class="box-img">
              <img src="${data[i].image}" alt="">
@@ -39,14 +40,14 @@ fetch(url)
            </div>
             </div>
         </div>
-      </div>`;
+      </a>`;
       }
     } else {
       for (let i = 0; i < data.length; i++) {
         if (data[i].age === age) {
           card.innerHTML += `
-          <a href="/page/stories page/stories.html?age=${data[i].age}"></a>
-          <div class="card-container">
+          
+          <a href="../../page/stories detail/detail.html?id=${data[i].id}" style=" text-decoration: none;" class="card-container">
           <div class="box">
               <div class="box-img">
                <img src="${data[i].image}" alt="">
@@ -66,7 +67,7 @@ fetch(url)
              </div>
               </div>
           </div>
-        </div>`;
+        </a>`;
         }
       }
     }

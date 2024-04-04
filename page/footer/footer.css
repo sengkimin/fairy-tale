@@ -44,6 +44,13 @@
     margin-left: 15px;
     margin-right: 10px;
 }
+.form-check{
+    
+    margin-left: 10px;
+}
+.check{
+    font-size: 20px;
+}
 .short-by-year i{
     color: black;
     margin-right:10px;
