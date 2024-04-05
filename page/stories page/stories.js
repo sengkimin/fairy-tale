@@ -1,9 +1,11 @@
 let params = new URLSearchParams(document.location.search);
-let age = params.get("age");
+let valand = params.get("age");
 
-console.log(age);
-
-
+console.log(valand);
+function test(element) {
+  console.log(element.value)
+  window.location.href = "/page/stories page/stories.html?age=" + element.value;
+}
 
 let url = "https://fairy-tale-api-inky.vercel.app/api/fairytales";
 
@@ -15,7 +17,7 @@ fetch(url)
   .then((data) => {
     const card = document.getElementById("card");
 
-    if (age === "all") {
+    if (valand === "all") {
       for (let i = 0; i < data.length; i++) {
         card.innerHTML += `
        
@@ -44,7 +46,8 @@ fetch(url)
       }
     } else {
       for (let i = 0; i < data.length; i++) {
-        if (data[i].age === age) {
+        if (data[i].age === valand) {
+          
           card.innerHTML += `
           
           <a href="../../page/stories detail/detail.html?id=${data[i].id}" style=" text-decoration: none;" class="card-container">

@@ -4,7 +4,7 @@
     color: #EA18EE;
     text-decoration: none;
 }
-.nav-link{
+.nav-pills{
   color: #EA18EE;
 }
 #card {
@@ -13,6 +13,9 @@
   margin: auto;   
   
 } 
+.fs-4{
+  color: #EA18EE;
+}
 .box {
   width: 80%;
   overflow: hidden;
@@ -56,4 +59,62 @@
   text-align: end;  
   margin-top: 20px; 
   
+}
+@media only screen and (max-width: 600px){
+  .nav-pills{
+    color: #EA18EE;
+  }
+  #card {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;   
+    
+  } 
+  .fs-4{
+    color: #EA18EE;
+  }
+  .box {
+    width: 80%;
+    overflow: hidden;
+    display: block;
+    gap: 20px;
+    border: 1px solid #EA18EE;
+    padding: 10px; 
+    margin:auto ;
+    margin-top:30px ;
+   
+  }
+  .box-img {
+    width: 100%;
+    height: 300px;
+  }
+  .box-img img{
+    width: 100%;
+    height: 100%;
+  }
+  .box-title{
+    width: 100%;
+    height: auto;
+    
+  }
+  .box-title p{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .box1{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+  }
+  .box1 p{
+    font-size:15px ; 
+  }
+  #form{
+    width: 80%;
+    overflow: hidden; 
+    text-align: end;  
+    margin-top: 20px; 
+    
+  }
 }

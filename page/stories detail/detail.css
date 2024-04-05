@@ -4,7 +4,7 @@
      padding: 0;
     
  }
- .fs-4{
+ .nav-pills{
     color: #EA18EE;
 }
 body{
@@ -58,4 +58,57 @@ body{
      color: #EA18EE;
      margin-top: 30px ;
  }
- 
+ .box-audio{
+    margin:auto;
+    width:90%;
+ }
+ @media only screen and (max-width: 600px){
+    .single{
+        width: 100%;
+        overflow: hidden;
+       margin: auto;
+    }
+    .box{
+       width: 100%;
+       overflow: hidden;
+       text-align: center;
+       margin-top: 20px;
+       margin: auto;
+    }
+    .box h1{
+        width: 100%;
+        font-size: 25px;
+        line-height: 35px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .box p{
+        width: 70%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #EA18EE;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .image{
+        margin-top:  50px;
+        width: 80%;
+        height: 400px;
+        margin: auto;
+    }
+    .image img{
+       width: 100%;
+       height: 100%;
+    }
+    .title{
+        width: 90%;
+        overflow: hidden;
+        margin: auto;
+   
+    }
+    .title p{
+        font-size: 20px;
+        color: #EA18EE;
+        margin-top: 30px ;
+    }
+ }

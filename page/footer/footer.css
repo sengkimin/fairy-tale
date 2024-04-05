@@ -6,7 +6,7 @@
 .filter{
     margin-top: 30px;
     width: 100%;
-    margin-left: 62.5%;
+    margin-left: 60.5%;
     display: flex;
     align-items: center;
 }
@@ -57,4 +57,64 @@
     border: 1px solid black;
     padding: 5px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 600px){
+.filter{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+}
+.filter-bar{
+    /* width: 10%; */
+    gap: 4PX;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.filter-circle{
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.click-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.click-circle:hover{
+    background-color: black;
+}
+.border-right{
+    height: 30px;
+    margin-left: 65px;
+    border-right: 1px solid black;
+}
+.short-by-year{
+    display: flex;
+    align-items: center;
+}
+.short-by-year p{
+    margin-top: 15px;
+    font-size: 15px;
+    /* margin-left: 65px; */
+    margin-right: 10px;
+}
+.form-check{
+    
+    margin-left: 10px;
+}
+.check{
+    font-size: 10px;
+}
+.short-by-year i{
+    color: black;
+    margin-right:10px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}
 }

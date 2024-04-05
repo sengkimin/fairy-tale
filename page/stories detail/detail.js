@@ -28,7 +28,7 @@ function fetchData() {
          <p>${data.summary} </p>
          <p>${data.description}</p>
          </div>
-         <div style="margin:auto;width:70%;" >
+         <div class="box-audio" >
          <audio controls style="width:100%;margin-top:20px;">
          <source  src="${data.audio}" type="audio/mpeg">
          </audio>
