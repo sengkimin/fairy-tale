@@ -45,13 +45,13 @@ body{
  }
  .image{
      margin-top:  50px;
-     width: 55%;
-     height: 700px;
+     width: 50%;
+     height: 850px;
      margin: auto;
  }
  .image img{
     width: 100%;
-   
+   object-fit: cover;
     height: 100%;
  }
  .title{
@@ -67,7 +67,7 @@ body{
  }
  .box-audio{
     margin:auto;
-    width:90%;
+    width:70%;
  }
  @media only screen and (max-width: 600px){
     .single{
