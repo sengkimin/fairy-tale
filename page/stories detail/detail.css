@@ -11,6 +11,16 @@ body{
      background-color: #FFFFEC;
 
 }
+.kdub{
+    border-left: 2px solid #EA18EE;
+    border-right: 2px solid #EA18EE;
+    border-bottom:2px solid #EA18EE;
+    height: auto;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+
+}
  .single{
      width: 100%;
      overflow: hidden;
@@ -26,14 +36,18 @@ body{
     text-align: center;
     margin-top: 20px;
     margin: auto;
+
     
  }
  .box h1{
+
+    
      width: 50%;
      font-size: 40px;
      line-height: 50px;
      margin: auto;
      margin-top: 30px;
+     
  }
  .box p{
      width: 70%;
@@ -42,10 +56,11 @@ body{
      color: #EA18EE;
      margin: auto;
      margin-bottom: 20px;
+     
  }
  .image{
      margin-top:  50px;
-     width: 50%;
+     width: 75%;
      height: 850px;
      margin: auto;
  }
@@ -55,19 +70,20 @@ body{
     height: 100%;
  }
  .title{
-     width: 70%;
+     width:85%;
      overflow: hidden;
      margin: auto;
+     
 
  }
  .title p{
      font-size: 28px;
      color: #EA18EE;
-     margin-top: 30px ;
+     margin-top: 30px;
  }
  .box-audio{
     margin:auto;
-    width:70%;
+    width:85%;
  }
  @media only screen and (max-width: 600px){
     .single{

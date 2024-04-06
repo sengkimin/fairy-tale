@@ -2,7 +2,7 @@ header{
     width: 80%;
     margin: auto;
     /* background-color: #FFFFEC; */
-    border-bottom:4px solid #EA18EE
+    border-bottom:2px solid #EA18EE;
 }
 .nav-item{
     padding: 10px;
