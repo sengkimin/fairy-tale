@@ -5,6 +5,9 @@ a{
 *{
      color: #EA18EE;
 }
+.header{
+  border-bottom: 2px solid #EA18EE;
+}
 body {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
